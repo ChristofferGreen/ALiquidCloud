@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:persistent="true" 
+    android:title="Preferences Screen" 
+    android:key="preferencesscreenkey">
+    <ListPreference android:title="Select Wallpaper Theme" 
+        android:entries="@array/WallpaperThemeEntries" 
+        android:entryValues="@array/WallpaperThemeValues" 
+        android:key="themekey" 
+        android:selectable="true" 
+        android:summary="Select a theme to be used for the wallpaper" 
+        android:defaultValue="1" 
+        android:enabled="true" 
+        android:persistent="true"/>
+    <ListPreference android:title="Select Frame Rate" android:summary="Select a target frame rate (use a lower value if the wallpaper makes your device slow)" android:key="frameratekey" android:entries="@array/FrameRateEntries" android:entryValues="@array/FrameRateValues" android:defaultValue="3"/>
+    <ListPreference android:title="Select Zoom Amount" android:summary="Select the amount of zoom used" android:key="zoomkey" android:entries="@array/ZoomEntries" android:entryValues="@array/FrameRateValues" android:defaultValue="2"/>    
+
+</PreferenceScreen>

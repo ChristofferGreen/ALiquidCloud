@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/instructions_view"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbars="vertical" >
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5px" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5px"
+        android:paddingTop="20px"
+        android:text="Thank you for downloading this wallpaper made by Christoffer Green, I can be reached at christoffer.green@gmail.com" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5px"
+        android:paddingTop="20px"
+        android:text="Thanks to Dennis Ippel for the Rajawali engine. Thanks to everybody that bought the full version of the wallpaper, you are the ones that made the development of it possible." >
+    </TextView>
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="5px"
+        android:paddingTop="20px"
+        android:text="" >
+    </TextView>
+
+</LinearLayout>

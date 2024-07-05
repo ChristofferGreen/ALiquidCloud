@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preferencesscreenkey"
+    android:persistent="true"
+    android:title="@string/preferencesscreen" >
+
+    <ListPreference
+       android:entries="@array/CustomThemeTypeEntries"
+       android:entryValues="@array/CustomThemeTypeValues"
+       android:key="customthemetypekey"
+       android:summary="Pick a method for customizing the wallpaper"
+       android:title="Custom Theme Type" 
+       android:defaultValue="1" />
+    
+    <PreferenceCategory android:title="Custom theme colors" >
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            alphaSlider="false"
+            android:defaultValue="@integer/COLOR_LIGHTBLUE"
+            android:key="color7"
+            android:summary="Pick color 1"
+            android:title="Color 1" />
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            alphaSlider="false"
+            android:defaultValue="@integer/COLOR_MIDDLEBLUE"
+            android:key="color8"
+            android:summary="Pick color 2"
+            android:title="Color 2" />
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            alphaSlider="false"
+            android:defaultValue="@integer/COLOR_YELLOW"
+            android:key="color9"
+            android:summary="Pick color 3"
+            android:title="Color 3" />
+        </PreferenceCategory>
+        
+</PreferenceScreen>

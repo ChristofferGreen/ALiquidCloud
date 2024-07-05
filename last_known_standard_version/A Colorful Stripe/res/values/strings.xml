@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World!</string>
+    <string name="wallpaper_settings">Wallpaper Settings</string>
+    <string name="app_name">A Colorful Stripe</string>
+    <string name="description"></string>
+    <string name="wallpaper_settings_summary">Summary</string>
+    <string name="WallpaperThemeKey"></string>
+    <string name="check"></string>
+    <string name="preferenceskey"></string>
+
+    <string name="preferencesscreen">Preferences</string>
+    <string name="informationnotshowninfullversion">Information - Not Shown In Full Version</string>
+    <string name="buyaliquidcloudfullversion">Buy The Full Version</string>
+    <string name="pressheretogototheandroidmarketforthiswallpaper">Press here to buy the full version</string>
+    <string name="limitationsinthefreeversion">Limitations In The Free Version:</string>
+    <string name="nonofthethemeappearancestettingsactuallymakechangesinthefreeversion">The free version can only make changes to the frame rate</string>    
+    
+</resources>

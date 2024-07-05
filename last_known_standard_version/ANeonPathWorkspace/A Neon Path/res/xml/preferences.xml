@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preferencesscreenkey"
+    android:persistent="true"
+    android:title="A Neon Path" >
+
+    <PreferenceCategory android:title="A Neon Path Appearance" >
+        <ListPreference
+            android:entries="@array/NumberOfPathsEntries"
+            android:entryValues="@array/NumberOfPathsValues"
+            android:key="numberofpathskey"
+            android:summary="Select the number of paths to show"
+            android:title="Number of Paths"
+            android:enabled="@string/freedisabled" 
+            android:defaultValue="3" />
+        
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            alphaSlider="false"
+            android:defaultValue="@integer/COLOR1"
+            android:key="color1"
+            android:summary="Pick path 1 color"
+            android:enabled="@string/freedisabled" 
+            android:title="Path 1 Color" />
+
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            alphaSlider="false"
+            android:defaultValue="@integer/COLOR2"
+            android:key="color2"
+            android:summary="Pick path 2 color"
+            android:enabled="@string/freedisabled" 
+            android:title="Path 2 Color" />
+        
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            alphaSlider="false"
+            android:defaultValue="@integer/COLOR3"
+            android:key="color3"
+            android:summary="Pick path 3 color"
+            android:enabled="@string/freedisabled" 
+            android:title="Path 3 Color" />
+        
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            alphaSlider="false"
+            android:defaultValue="@integer/COLOR4"
+            android:key="color4"
+            android:summary="Pick path 4 color"
+            android:enabled="@string/freedisabled" 
+            android:title="Path 4 Color" />
+        
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            alphaSlider="false"
+            android:defaultValue="@integer/COLOR5"
+            android:key="color5"
+            android:summary="Pick path 5 color"
+            android:enabled="@string/freedisabled" 
+            android:title="Path 5 Color" />
+
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            alphaSlider="false"
+            android:defaultValue="@integer/COLORSKY"
+            android:key="skycolor"
+            android:summary="Pick a sky color"
+            android:enabled="@string/freedisabled" 
+            android:title="Sky Color" />
+
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            alphaSlider="false"
+            android:defaultValue="@integer/COLORGROUND"
+            android:key="groundcolor"
+            android:summary="Pick a ground color"
+            android:enabled="@string/freedisabled" 
+            android:title="Ground Color" />
+
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            alphaSlider="false"
+            android:defaultValue="@integer/COLORNORTHERNLIGHT"
+            android:key="northernlightcolor"
+            android:summary="Pick a color for the northern light effect"
+            android:enabled="@string/freedisabled" 
+            android:title="Northern Light Color" />
+        
+        <ListPreference
+            android:entries="@array/SkyEffectEntries"
+            android:entryValues="@array/SkyEffectValues"
+            android:key="skyeffectkey"
+            android:summary="Pick An Effect To Show On the Sky"
+            android:title="Sky Effect"
+            android:enabled="@string/freedisabled" 
+            android:defaultValue="1" />
+
+        <ListPreference
+            android:entries="@array/ScreenEffectEntries"
+            android:entryValues="@array/ScreenEffectValues"
+            android:key="screeneffectkey"
+            android:summary="Pick An Effect For The Screen"
+            android:title="Screen Effect"
+            android:enabled="@string/freedisabled" 
+            android:defaultValue="0" />
+
+        <ListPreference
+            android:entries="@array/ScreenEffectQualityEntries"
+            android:entryValues="@array/ScreenEffectQualityValues"
+            android:key="screeneffectqualitykey"
+            android:summary="Pick A Quality Level for Screen Effects"
+            android:title="Screen Effect Quality"
+            android:enabled="@string/freedisabled" 
+            android:defaultValue="1" />
+        
+        <ListPreference
+            android:entries="@array/FloorTextureEntries"
+            android:entryValues="@array/FloorTextureValues"
+            android:key="floortexturekey"
+            android:summary="Pick A Texture For the Floow"
+            android:title="Floor Texture"
+            android:enabled="@string/freedisabled" 
+            android:defaultValue="1" />
+
+        <ListPreference
+            android:entries="@array/PathTypeEntries"
+            android:entryValues="@array/PathTypeValues"
+            android:key="pathtypekey"
+            android:summary="Pick A Type Of Path To Show"
+            android:title="Path Type"
+            android:enabled="@string/freedisabled" 
+            android:defaultValue="0" />
+
+        <ListPreference
+            android:entries="@array/NorthernLightsEntries"
+            android:entryValues="@array/NorthernLightsValues"
+            android:key="northernlightskey"
+            android:summary="Should northern lights be shown?"
+            android:title="Northern Lights"
+            android:enabled="@string/freedisabled" 
+            android:defaultValue="0" />
+        
+        <ListPreference
+            android:entries="@array/CameraSpeedEntries"
+            android:entryValues="@array/CameraSpeedValues"
+            android:key="cameraspeedkey"
+            android:summary="Pick a speed value fro the camera"
+            android:title="Camera Speed"
+            android:defaultValue="1" />
+        
+        <ListPreference
+            android:entries="@array/SlidingEntries"
+            android:entryValues="@array/SlidingValues"
+            android:key="slidingkey"
+            android:summary="Pick A Method For Screen Sliding"
+            android:title="Screen Sliding Type"
+            android:defaultValue="2" />
+        
+        <ListPreference
+            android:defaultValue="2"
+            android:entries="@array/QualityEntries"
+            android:entryValues="@array/QualityValues"
+            android:key="quality2key"
+            android:summary="Select A Visual Quality Level"
+            android:title="Select Quality" />
+        
+        <ListPreference
+            android:defaultValue="20"
+            android:entries="@array/FrameRateEntries"
+            android:entryValues="@array/FrameRateValues"
+            android:key="frameratekey"
+            android:summary="Select Target Frame Rate"
+            android:title="Select Frame Rate" />
+
+        <Preference android:title="Get More Apps"
+                android:key="moreappsbutton"
+                android:summary="Press here to go to the google plus page for this developer"/>
+        
+        <Preference android:title="About"
+                android:key="aboutbutton"/>
+        </PreferenceCategory>
+
+</PreferenceScreen>

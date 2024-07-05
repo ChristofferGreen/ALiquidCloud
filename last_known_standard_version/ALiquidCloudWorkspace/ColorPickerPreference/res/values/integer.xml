@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<integer name="COLOR_RED">0xffff0000</integer>
+   	<integer name="COLOR_GREEN">0xff00ff00</integer>
+	<integer name="COLOR_BLUE">0xff0000ff</integer>
+	<integer name="COLOR_YELLOW">0xfff4ff28</integer>
+	<integer name="COLOR_PINK">0xffffaeC9</integer>
+	<integer name="COLOR_BLACK">0xff000000</integer>
+	<integer name="COLOR_NEONBLUE">0xff197fcc</integer>
+	<integer name="COLOR_LIGHTBLUE">0xff47e0ed</integer>
+	<integer name="COLOR_MIDDLEBLUE">0xff2c5ecd</integer>
+	<integer name="COLOR_DARKBLUE">0xff2d2F6F</integer>
+</resources>

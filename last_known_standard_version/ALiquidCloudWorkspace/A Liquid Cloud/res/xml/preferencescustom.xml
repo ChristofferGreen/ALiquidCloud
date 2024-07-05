@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preferencesscreenkey"
+    android:persistent="true"
+    android:title="@string/preferencesscreen" >
+
+    <ListPreference
+       android:entries="@array/CustomThemeTypeEntries"
+       android:entryValues="@array/CustomThemeTypeValues"
+       android:key="customthemetypekey"
+       android:summary="Pick a method for customizing the wallpaper"
+       android:title="Custom Theme Type" 
+       android:defaultValue="1" />
+    
+    <PreferenceCategory android:title="@string/customthemecolor1" >
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            alphaSlider="false"
+            android:defaultValue="@integer/COLOR_LIGHTBLUE"
+            android:key="color1"
+            android:summary="@string/color1_summary"
+            android:title="@string/color1_title" />
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            alphaSlider="false"
+            android:defaultValue="@integer/COLOR_BLACK"
+            android:key="color2"
+            android:summary="@string/color2_summary"
+            android:title="@string/color2_title" />
+    </PreferenceCategory>
+        
+    <PreferenceCategory android:title="@string/customthemecolor2" >
+        <CheckBoxPreference
+            android:key="usesecondgradient"
+            android:summary="@string/usesmorecolorsforthetheme"
+            android:title="@string/usesecondlevelcolors" />
+
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            alphaSlider="false"
+            android:defaultValue="@integer/COLOR_MIDDLEBLUE"
+            android:key="color3"
+            android:summary="@string/color3_summary"
+            android:title="@string/color3_title" />
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            alphaSlider="false"
+            android:defaultValue="@integer/COLOR_BLACK"
+            android:key="color4"
+            android:summary="@string/color4_summary"
+            android:title="@string/color4_title" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/customthemecolor3" >
+        <CheckBoxPreference
+            android:key="usethirdgradient"
+            android:summary="@string/usesevenmorecolorsforthetheme"
+            android:title="@string/usethirdlevelcolors" />
+
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            alphaSlider="false"
+            android:defaultValue="@integer/COLOR_YELLOW"
+            android:key="color5"
+            android:summary="@string/color5_summary"
+            android:title="@string/color5_title" />
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            alphaSlider="false"
+            android:defaultValue="@integer/COLOR_DARKBLUE"
+            android:key="color6"
+            android:summary="@string/color6_summary"
+            android:title="@string/color6_title" />
+    </PreferenceCategory>
+	
+</PreferenceScreen>

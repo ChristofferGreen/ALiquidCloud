@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="SlidingEntries">
+        <item >No Sliding</item>
+        <item >Scroll Screen</item>
+        <item >Scroll Screen+Reflection Rotation</item>
+        <item >Reflection Rotation</item>
+    </string-array>
+    <string-array name="SlidingValues">
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+    </string-array>
+    <string-array name="UseCustomThemeEntries">
+        <item >Do Not Use Custom Theme</item>
+        <item >Use Custom Theme</item>
+    </string-array>
+    <string-array name="UseCustomThemeValues">
+        <item >1</item>
+        <item >2</item>
+    </string-array>
+    <string-array name="EnvironmentEntries">
+        <item >Grace 1</item>
+        <item >Grace 2</item>
+        <item >Grace 3</item>
+        <item >Entrance 1</item>
+        <item >Entrance 2</item>
+        <item >Entrance 3</item>
+        <item >Warehouse 1</item>
+        <item >Warehouse 2</item>
+        <item >Warehouse 3</item>
+    </string-array>
+    <string-array name="EnvironmentValues">
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+        <item >5</item>
+        <item >6</item>
+        <item >7</item>
+        <item >8</item>
+        <item >9</item>
+	</string-array>
+    <string-array name="RotationInvertEntries">
+        <item >No Rotation Inversion</item>
+        <item >Invert X</item>
+        <item >Invert Y</item>
+        <item >Invert X and Y</item>
+    </string-array>
+    <string-array name="RotationInvertValues">
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+	</string-array>
+    
+    <string-array name="QualityEntries">
+        <item >Low</item>
+        <item >Middle</item>
+        <item >High</item>
+    </string-array>
+    <string-array name="QualityValues">
+        <item >0</item>
+        <item >1</item>
+        <item >2</item>
+    </string-array>
+    <string-array name="CameraSpeedEntries">
+        <item >Low</item>
+        <item >Middle</item>
+        <item >High</item>
+    </string-array>
+    <string-array name="CameraSpeedValues">
+        <item >0</item>
+        <item >1</item>
+        <item >2</item>
+    </string-array>
+    <string-array name="FrameRateEntries">
+        <item >5</item>
+        <item >10</item>
+        <item >15</item>
+        <item >20</item>
+        <item >25</item>
+        <item >30</item>
+        <item >40</item>
+        <item >50</item>
+        <item >60</item>
+    </string-array>
+    <string-array name="FrameRateValues">
+        <item >5</item>
+        <item >10</item>
+        <item >15</item>
+        <item >20</item>
+        <item >25</item>
+        <item >30</item>
+        <item >40</item>
+        <item >50</item>
+        <item >60</item>
+    </string-array>
+</resources>

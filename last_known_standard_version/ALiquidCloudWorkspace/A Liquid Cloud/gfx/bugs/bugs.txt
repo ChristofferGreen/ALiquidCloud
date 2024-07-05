@@ -1,0 +1,42 @@
+Does not work: Black Screen
+---------------------
+Google Nexus S (200 MHz PowerVR SGX 540)
+Samsung G Tab (PowerVR SGX 540)
+Samsung Galaxy S (200 MHz PowerVR SGX 540)
+Samsung Galaxy S2 i9100 (PowerVR SGX540)
+Samsung Droid Charge (PowerVR SGX 540)
+Motorola 2/MB865 (PowerVR SGX 540)
+Motorola Droid RAZR (PowerVR SGX 540)
+Motorola Droid X (PowerVR SGX530)
+Motorola Droid 3 (PowerVR SGX540 @ 304 MHz)
+Motorola Droid Bionic (PowerVR SGX540 @ 304 MHz)
+LG P970 Optimus Black (PowerVR SGX530)
+LG Optimus 3D (PowerVR SGX540)
+
+Does not work: Pixelated
+---------------------
+Samsung GT-N7000 (Galaxy Note, GT-N7000)
+Samsung Galaxy Nexus
+
+Does not work: Stutter
+----------------------
+Samsung Galaxy Nexus
+
+Does Work:
+---------------------
+Motorola Xoom
+Motorola Photon 4G (sunfire)
+HTC Wildfire s
+HTC Incredible S
+HTC Desire HD
+HTC EVO 3D
+HP TouchPad
+HTC G2 (vision)
+Dell Streak
+Samsung Galaxy Note (some)
+Samsung Galaxy Nexus
+Samsung Galaxy S2 (some)
+Nexus One
+Xperia Play
+LGE LG-P990 (p990_EUR-xx)
+Asus EeePad Transformer TF101

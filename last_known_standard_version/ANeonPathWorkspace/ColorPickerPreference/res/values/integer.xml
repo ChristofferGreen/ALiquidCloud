@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <integer name="COLOR_RED">0xffff0000</integer>
+    <integer name="COLOR_GREEN">0xff00ff00</integer>
+    <integer name="COLOR_BLUE">0xff0000ff</integer>
+    <integer name="COLOR_YELLOW">0xfff4ff28</integer>
+    <integer name="COLOR_PINK">0xffffaeC9</integer>
+    <integer name="COLOR_BLACK">0xff000000</integer>
+    <integer name="COLOR_NEONBLUE">0xff197fcc</integer>
+    <integer name="COLOR_LIGHTBLUE">0xff47e0ed</integer>
+    <integer name="COLOR_MIDDLEBLUE">0xff2c5ecd</integer>
+    <integer name="COLOR_DARKBLUE">0xff2d2F6F</integer>
+    <integer name="COLOR1">0xffFF3F06</integer>
+    <integer name="COLOR2">0xffFFF206</integer>
+    <integer name="COLOR3">0xff06FFF9</integer>
+    <integer name="COLOR4">0xffEE00CA</integer>
+    <integer name="COLOR5">0xff00EE95</integer>
+    <integer name="COLORGROUND">0xff2152FA</integer>
+    <integer name="COLORSKY">0xff0D42F9</integer>
+    <integer name="COLORNORTHERNLIGHT">0xffff00e9</integer>
+
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="freedisabled">false</string>
+    
+    <string name="wallpaper_settings">Wallpaper Settings</string>
+    <string name="description"></string>
+    <string name="wallpaper_settings_summary">Summary</string>
+    <string name="WallpaperThemeKey"></string>
+    <string name="check"></string>
+    <string name="preferenceskey"></string>
+
+    <string name="color1_title">Custom Theme Color 1</string>
+    <string name="color1_summary">Pick a base color for the custom theme</string>
+    <string name="color2_title">Custom Theme Color 2</string>
+    <string name="color2_summary">Pick a highlight color for the custom theme</string>
+
+    <string name="color3_title">Custom Theme Color 3</string>
+    <string name="color3_summary">Pick a base color for the custom theme</string>
+    <string name="color4_title">Custom Theme Color 4</string>
+    <string name="color4_summary">Pick a highlight color for the custom theme</string>
+
+    <string name="color5_title">Custom Theme Color 5</string>
+    <string name="color5_summary">Pick a base color for the custom theme</string>
+    <string name="color6_title">Custom Theme Color 6</string>
+    <string name="color6_summary">Pick a highlight color for the custom theme</string>
+    
+    <string name="nosliding">No Sliding</string>
+    <string name="screenswitchsliding">Screen Switch Sliding</string>
+    <string name="freesliding">Free Sliding</string>
+
+    <string name="close">Close</string>
+    <string name="middle">Middle</string>
+    <string name="far">Far</string>
+    
+    <string name="preferencesscreen">Preferences</string>
+    <string name="informationnotshowninfullversion">Information - Not Shown In Full Version</string>
+    <string name="buyaliquidcloudfullversion">Buy The Full Version</string>
+    <string name="pressheretogototheandroidmarketforthiswallpaper">Press here to buy the full version</string>
+    <string name="limitationsinthefreeversion">Limitations In The Free Version:</string>
+    <string name="nonofthethemeappearancestettingsactuallymakechangesinthefreeversion">The free version can only make changes to the theme type, frame rate and fluffyness</string>
+    
+    <string name="themeappearance">Theme Appearance</string>
+    <string name="showsagalleryofthewallpapersthatcanbeselected">Shows a gallery of the themes that can be selected</string>
+    <string name="selectwallpapertheme">Select Theme</string>
+    <string name="pickamethodforscreensliding">Pick a method for screen sliding</string>
+    <string name="screenslidingtype">Pick A Scrolling Type</string>
+    <string name="selecttheamountofzoomused">Select The Amount of Zoom Used</string>
+    <string name="selectzoomamount">Select Zoom Amount</string>
+    <string name="customthemecolor1">Custom Theme Color 1</string>
+    <string name="customthemecolor2">Custom Theme Color 2</string>
+    <string name="customthemecolor3">Custom Theme Color 3</string>
+    <string name="useyourowncolorsforthethemeinsteadofthepredefinedones">Use your own colors for the theme instead of the predefined ones</string>
+    <string name="usecustomtheme">Use Custom Theme</string>
+    <string name="usesmorecolorsforthetheme">Uses more colors for the theme</string>
+    <string name="usesecondlevelcolors">Use Second Level Colors</string>
+    <string name="usesevenmorecolorsforthetheme">Uses even more colors for the theme</string>
+    <string name="usethirdlevelcolors">Use Third Level Colors</string>
+    <string name="themesettings">Theme Settings</string>
+    <string name="selectatargetframerate">Select a target frame rate (use a lower value if the wallpaper makes your device slow)</string>
+    <string name="selectframerate">Select Frame Rate</string>
+</resources>

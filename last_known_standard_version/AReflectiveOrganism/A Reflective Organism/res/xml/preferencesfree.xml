@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preferencesscreenkey"
+    android:persistent="true"
+    android:title="A Reflective Organism" >
+
+    <PreferenceCategory android:title="This Information Is Not Shown In Unlocked Version" android:key="buycategory">
+        <Preference android:title="Unlock Full Version"
+                android:key="buybutton"
+                android:summary="Press here to unlock the full version"/>
+        <Preference android:title="Limitations In The Locked Version:"
+                android:key="buttonnotused"
+                android:summary="The Greyed Out Settings Only Work In The Unlocked Version"/>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="Settings" >
+        <com.cmwmobile.android.samples.GalleryDialogPreference 
+            android:title="Theme" 
+            android:key="gallery" 
+            android:summary="Show theme gallery"/>
+
+        <com.cmwmobile.android.samples.GalleryDialogPreference 
+            android:title="Reflection Environment" 
+            android:key="environmentkey" 
+            android:summary="Pick Reflection Environment"/>
+
+        <com.hlidskialf.android.preference.SeekBarPreference android:key="reflectivity"
+	        android:title="Reflectivity"
+	        android:summary="Change reflectiveness"
+	        android:dialogMessage="Change the reflectiveness"
+	        android:defaultValue="75"
+	        android:text=""
+	        android:max="100"
+	        android:enabled="false" 
+        />      
+        
+        <com.hlidskialf.android.preference.SeekBarPreference android:key="movement"
+	        android:title="Movement Speed"
+	        android:summary="Change Movement Speed"
+	        android:dialogMessage="Change the movement speed"
+	        android:defaultValue="50"
+	        android:text=""
+	        android:max="100"
+	        android:enabled="false"
+        />      
+        
+        <com.hlidskialf.android.preference.SeekBarPreference android:key="displacement"
+	        android:title="Displacement"
+	        android:summary="Change Displacement Amount"
+	        android:dialogMessage="Change the amount of displacement"
+	        android:defaultValue="15"
+	        android:text=""
+	        android:max="100"
+	        android:enabled="false"
+        />      
+        
+        <ListPreference
+            android:entries="@array/SlidingEntries"
+            android:entryValues="@array/SlidingValues"
+            android:key="slidingkey"
+            android:summary="Pick A Method For Screen Sliding"
+            android:title="Screen Sliding Type"
+            android:defaultValue="2" />
+
+        <ListPreference
+            android:entries="@array/RotationInvertEntries"
+            android:entryValues="@array/RotationInvertValues"
+            android:key="rotationinvertkey"
+            android:summary="Select A Method For Rotation Inversion"
+            android:title="Invert Rotation"
+            android:defaultValue="1" />
+        
+        <ListPreference
+            android:defaultValue="40"
+            android:entries="@array/FrameRateEntries"
+            android:entryValues="@array/FrameRateValues"
+            android:key="frameratekey"
+            android:summary="Select Target Frame Rate"
+            android:title="Frame Rate"
+        />
+
+        <Preference android:title="Get More Apps"
+                android:key="moreappsbutton"
+                android:summary="Press here to go to the google plus page for this developer"/>
+        
+        <Preference android:title="About"
+                android:key="aboutbutton"/>
+        </PreferenceCategory>
+
+</PreferenceScreen>

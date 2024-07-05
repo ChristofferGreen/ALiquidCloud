@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preferencesscreenkey"
+    android:persistent="true"
+    android:title="@string/preferencesscreen" >
+
+    <ListPreference
+       android:entries="@array/CustomThemeTypeEntries"
+       android:entryValues="@array/CustomThemeTypeValues"
+       android:key="customthemetypekey"
+       android:summary="Pick a method for customizing the wallpaper"
+       android:title="Custom Theme Type" 
+       android:defaultValue="1" />
+</PreferenceScreen>

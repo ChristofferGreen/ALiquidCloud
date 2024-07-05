@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="SlidingEntries">
+        <item >@string/nosliding</item>
+        <item >@string/screenswitchsliding</item>
+        <item >@string/freesliding</item>
+    </string-array>
+    <string-array name="SlidingValues">
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+    </string-array>
+    <string-array name="FrameRateEntries">
+        <item >5</item>
+        <item >10</item>
+        <item >15</item>
+        <item >20</item>
+        <item >25</item>
+        <item >30</item>
+        <item >40</item>
+        <item >50</item>
+        <item >60</item>
+        </string-array>
+    <string-array name="FrameRateValues">
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+        <item >5</item>
+        <item >6</item>
+        <item >7</item>
+		<item >8</item>
+		<item >9</item>
+        </string-array>
+    <string-array name="WindSpeedEntries">
+        <item >Slow</item>
+        <item >Medium</item>
+        <item >Fast</item>
+        </string-array>
+    <string-array name="WindSpeedValues">
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        </string-array>
+    <string-array name="WindDirectionEntries">
+        <item >No Wind Direction</item>
+        <item >Up</item>
+        <item >Right-Up</item>
+        <item >Right</item>
+        <item >Down-Right</item>
+        <item >Down</item>
+        <item >Left-Down</item>
+        <item >Left</item>
+        <item >Up-Left</item>
+        </string-array>
+    <string-array name="WindDirectionValues">
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+        <item >5</item>
+        <item >6</item>
+        <item >7</item>
+		<item >8</item>
+		<item >9</item>
+        </string-array>
+    <string-array name="CustomThemeTypeEntries">
+        <item >No Custom Theme</item>
+        <item >Simple Custom</item>
+        <item >Complex Custom Theme</item>
+        </string-array>
+    <string-array name="CustomThemeTypeValues">
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        </string-array>
+    <string-array name="PokeEntries">
+        <item >No Poking</item>
+        <item >Ripple</item>
+        <item >Black Hole</item>
+        <item >Inverted Black Hole</item>
+        </string-array>
+    <string-array name="PokeValues">
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+        </string-array>
+    <string-array name="ZoomEntries">
+        <item >@string/close</item>
+        <item >@string/middle</item>
+        <item >@string/far</item>
+        <item >"Very Far"</item>
+    </string-array><string-array name="ZoomValues">
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+    </string-array>
+
+ 
+    
+</resources>

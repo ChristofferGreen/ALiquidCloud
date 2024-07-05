@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">A Neon Path</string>
+    <string name="freedisabled">false</string>
+    
+    <string name="wallpaper_settings">Wallpaper Settings</string>
+    <string name="description"></string>
+    <string name="wallpaper_settings_summary">Summary</string>
+
+    <string name="color1_title">Custom Theme Color 1</string>
+    <string name="color1_summary">Pick a base color for the custom theme</string>
+    <string name="color2_title">Custom Theme Color 2</string>
+    <string name="color2_summary">Pick a highlight color for the custom theme</string>
+
+    <string name="color3_title">Custom Theme Color 3</string>
+    <string name="color3_summary">Pick a base color for the custom theme</string>
+    <string name="color4_title">Custom Theme Color 4</string>
+    <string name="color4_summary">Pick a highlight color for the custom theme</string>
+
+    <string name="color5_title">Custom Theme Color 5</string>
+    <string name="color5_summary">Pick a base color for the custom theme</string>
+    <string name="color6_title">Custom Theme Color 6</string>
+    <string name="color6_summary">Pick a highlight color for the custom theme</string>
+</resources>

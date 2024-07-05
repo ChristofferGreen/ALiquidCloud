@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="wallpaper_settings">Wallpaper Settings</string>
+    <string name="app_name">A Reflective Darkness</string>
+    <string name="description"></string>
+    <string name="wallpaper_settings_summary">Summary</string>
+    <string name="WallpaperThemeKey"></string>
+    <string name="check"></string>
+    <string name="preferenceskey"></string>
+</resources>

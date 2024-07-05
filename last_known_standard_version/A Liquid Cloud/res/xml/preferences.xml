@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preferencesscreenkey"
+    android:persistent="true"
+    android:title="@string/preferencesscreen" >
+
+    <PreferenceCategory android:title="@string/themeappearance" >
+        <com.cmwmobile.android.samples.GalleryDialogPreference
+            android:key="gallery"
+            android:summary="@string/showsagalleryofthewallpapersthatcanbeselected"
+            android:title="@string/selectwallpapertheme" />
+       
+        <ListPreference
+            android:entries="@array/SlidingEntries"
+            android:entryValues="@array/SlidingValues"
+            android:key="slidingkey"
+            android:summary="@string/pickamethodforscreensliding"
+            android:title="@string/screenslidingtype" 
+            android:defaultValue="2" />
+        
+        <ListPreference
+            android:defaultValue="3"
+            android:entries="@array/ZoomEntries"
+            android:entryValues="@array/FrameRateValues"
+            android:key="zoomkey"
+            android:summary="@string/selecttheamountofzoomused"
+            android:title="@string/selectzoomamount" />
+
+        <ListPreference
+            android:defaultValue="7"
+            android:entries="@array/WindDirectionEntries"
+            android:entryValues="@array/WindDirectionValues"
+            android:key="winddirectionkey"
+            android:summary="Pick the direction the clouds are blowing in"
+            android:title="Select Wind Direction" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/WindSpeedEntries"
+            android:entryValues="@array/WindSpeedValues"
+            android:key="windspeedkey"
+            android:summary="Pick the wind speed"
+            android:title="Select Wind Speed" />
+        
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/PokeEntries"
+            android:entryValues="@array/PokeValues"
+            android:key="pokekey"
+            android:summary="Pick a method for screen touch interaction"
+            android:title="Screen Touch Interaction" />
+        
+        <com.hlidskialf.android.preference.SeekBarPreference android:key="fluffyness"
+	        android:title="Cloud Fluffyness"
+	        android:summary="Change the fluffyness of the clouds"
+	        android:dialogMessage="Change the fluffyness of the clouds"
+	        android:defaultValue="80"
+	        android:text=""
+	        android:max="250"
+        />      
+
+        <com.hlidskialf.android.preference.SeekBarPreference android:key="ringiness"
+	        android:title="Cloud Ringiness"
+	        android:summary="Change the ringiness of the clouds"
+	        android:dialogMessage="Change the ringiness of the clouds"
+	        android:defaultValue="20"
+	        android:text=""
+	        android:max="250"
+        />      
+        
+        <ListPreference
+            android:defaultValue="5"
+            android:entries="@array/FrameRateEntries"
+            android:entryValues="@array/FrameRateValues"
+            android:key="frameratekey"
+            android:summary="@string/selectatargetframerate"
+            android:title="@string/selectframerate" />
+        
+        <Preference android:title="About"
+                android:key="aboutbutton"/>
+        </PreferenceCategory>
+
+</PreferenceScreen>

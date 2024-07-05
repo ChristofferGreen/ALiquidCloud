@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preferencesscreenkey"
+    android:persistent="true"
+    android:title="@string/preferencesscreen" >
+
+    <PreferenceCategory android:title="@string/informationnotshowninfullversion" android:key="buycategory">
+        <Preference android:title="@string/buyaliquidcloudfullversion"
+                android:key="buybutton"
+                android:summary="@string/pressheretogototheandroidmarketforthiswallpaper"/>
+        <Preference android:title="@string/limitationsinthefreeversion"
+                android:key="buttonnotused"
+                android:summary="@string/nonofthethemeappearancestettingsactuallymakechangesinthefreeversion"/>
+        </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preferencesscreenkey"
+    android:persistent="true"
+    android:title="A Reflective Organism" >
+
+    <PreferenceCategory android:title="This Information Is Not Shown In Unlocked Version" android:key="buycategory">
+        <Preference android:title="Unlock Full Version"
+                android:key="buybutton"
+                android:summary="Press here to unlock the full version"/>
+        <Preference android:title="Limitations In The Locked Version:"
+                android:key="buttonnotused"
+                android:summary="The Greyed Out Settings Only Work In The Unlocked Version"/>
+    </PreferenceCategory>    
+    
+    <PreferenceCategory android:title="Custom Colors" >
+
+        <ListPreference
+            android:entries="@array/UseCustomThemeEntries"
+            android:entryValues="@array/UseCustomThemeValues"
+            android:key="usecustomthemekey"
+            android:summary="Should A Custom Color Scheme Be Used?"
+            android:title="Use Custom Colors"
+            android:defaultValue="1"
+            android:enabled="false"  
+        />
+        
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            alphaSlider="false"
+            android:defaultValue="@integer/COLOR1"
+            android:key="color1"
+            android:summary="Pick a color"
+            android:title="Color 1"
+            android:enabled="false"  
+        />
+
+        <net.margaritov.preference.colorpicker.ColorPickerPreference
+            alphaSlider="false"
+            android:defaultValue="@integer/COLOR2"
+            android:key="color2"
+            android:summary="Pick a color"
+            android:title="Color 2"
+            android:enabled="false"  
+        />
+
+        </PreferenceCategory>
+
+</PreferenceScreen>

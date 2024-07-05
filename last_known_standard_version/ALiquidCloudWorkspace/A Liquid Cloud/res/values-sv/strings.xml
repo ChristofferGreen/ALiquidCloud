@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallpaper_settings">Bakgrundsinställningar</string>
+    <string name="description"></string>
+    <string name="wallpaper_settings_summary">Sammanfattning</string>
+    <string name="WallpaperThemeKey"></string>
+    <string name="check"></string>
+    <string name="preferenceskey"></string>
+
+    <string name="color1_title">Anpassad Temafärg 1</string>
+    <string name="color1_summary">Väljs en basfärg för det anpassade temat</string>
+    <string name="color2_title">Anpassad Temafärg 2</string>
+    <string name="color2_summary">Välj en accentfärg för det anpassade temat</string>
+
+    <string name="color3_title">Anpassad Temafärg 3</string>
+    <string name="color3_summary">Väljs en basfärg för det anpassade temat</string>
+    <string name="color4_title">Anpassad Temafärg 4</string>
+    <string name="color4_summary">Välj en accentfärg för det anpassade temat</string>
+
+    <string name="color5_title">Anpassad Temafärg 5</string>
+    <string name="color5_summary">Väljs en basfärg för det anpassade temat</string>
+    <string name="color6_title">Anpassad Temafärg 6</string>
+    <string name="color6_summary">Välj en accentfärg för det anpassade temat</string>
+
+    <string name="nosliding">Ingen scrollning</string>
+    <string name="screenswitchsliding">Scrolla Med Skärmbyte</string>
+    <string name="freesliding">Fri Scrollning</string>
+
+    <string name="close">Nära</string>
+    <string name="middle">Mellan</string>
+    <string name="far">Långt</string>
+    
+    <string name="preferencesscreen">Inställningar</string>
+    <string name="informationnotshowninfullversion">Information - Detta Visas Ej I Fulla Versionen</string>
+    <string name="buyaliquidcloudfullversion">Köp Fulla Versionen</string>
+    <string name="pressheretogototheandroidmarketforthiswallpaper">Tryck här för att köpa den fulla versionen</string>
+    <string name="limitationsinthefreeversion">Begränsningar:</string>
+    <string name="nonofthethemeappearancestettingsactuallymakechangesinthefreeversion">Gratisversionen kan enbart ändra uppdateringshastigheten</string>
+    
+    <string name="themeappearance">Tema Utseende</string>
+    <string name="showsagalleryofthewallpapersthatcanbeselected">Visar en menu med olika teman som kan väljas</string>
+    <string name="selectwallpapertheme">Välj Tema</string>
+    <string name="pickamethodforscreensliding">Välj en scrollningsmetod</string>
+    <string name="screenslidingtype">Välj Scrollningstyp</string>
+    <string name="selecttheamountofzoomused">Välj Mängden Inzoomning</string>
+    <string name="selectzoomamount">Välj Zoomnivå</string>
+    <string name="customthemecolor1">Anpassad Temafärg 1</string>
+    <string name="customthemecolor2">Anpassad Temafärg 2</string>
+    <string name="customthemecolor3">Anpassad Temafärg 3</string>
+    <string name="useyourowncolorsforthethemeinsteadofthepredefinedones">Använd egna färger för temat istället för de fördefinierade</string>
+    <string name="usecustomtheme">Använd anpassat tema</string>
+    <string name="usesmorecolorsforthetheme">Använd mer egna färger för temat</string>
+    <string name="usesecondlevelcolors">Använd Färglager 2</string>
+    <string name="usesevenmorecolorsforthetheme">Använder ännu mer färger för temat</string>
+    <string name="usethirdlevelcolors">Använd Färglager 3</string>
+    <string name="themesettings">Tema Inställningar</string>
+    <string name="selectatargetframerate">Välj en uppdateringshastighet, under 25 kan ge flimrande intryck</string>
+    <string name="selectframerate">Välj Uppdateringshastighet</string>
+</resources>

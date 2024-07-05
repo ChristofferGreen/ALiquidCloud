@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wallpaper_settings">배경화면 설정</string>
+    <string name="description"></string>
+    <string name="wallpaper_settings_summary">요약</string>
+    <string name="WallpaperThemeKey"></string>
+    <string name="check"></string>
+    <string name="preferenceskey"></string>
+
+    <string name="color1_title">사용자 정의 테마 색상 1</string>
+    <string name="color1_summary">사용자 정의 테마를 위한 기본 색상 선택</string>
+    <string name="color2_title">사용자 정의 테마 색상 2</string>
+    <string name="color2_summary">사용자 정의 테마를 위한 강조 색상 선택</string>
+
+    <string name="color3_title">사용자 정의 테마 색상 3</string>
+    <string name="color3_summary">사용자 정의 테마를 위한 기본 색상 선택</string>
+    <string name="color4_title">사용자 정의 테마 색상 4</string>
+    <string name="color4_summary">사용자 정의 테마를 위한 강조 색상 선택</string>
+
+    <string name="color5_title">사용자 정의 테마 색상 5</string>
+    <string name="color5_summary">사용자 정의 테마를 위한 기본 색상 선택</string>
+    <string name="color6_title">사용자 정의 테마 색상 6</string>
+    <string name="color6_summary">사용자 정의 테마를 위한 강조 색상 선택</string>
+    
+    <string name="nosliding">슬라이드 효과 없음 </string>
+    <string name="screenswitchsliding">화면 전환 슬라이드</string>
+    <string name="freesliding">자유 슬라이드</string>
+
+    <string name="close">가까이</string>
+    <string name="middle">중간</string>
+    <string name="far">멀리</string>
+    
+    <string name="preferencesscreen">환경 설정</string>
+    <string name="informationnotshowninfullversion">정보 - 정식 버전에서는 표시되지 않습니다</string>
+    <string name="buyaliquidcloudfullversion">정식 버전 구매하기</string>
+    <string name="pressheretogototheandroidmarketforthiswallpaper">정식 버전을 구매하려면 여기를 누르십시오</string>
+    <string name="limitationsinthefreeversion">무료 버전의 기능 제한:</string>
+    <string name="nonofthethemeappearancestettingsactuallymakechangesinthefreeversion">무료 버전은 프레임 속도만 변경할 수 있습니다</string>
+    
+    <string name="themeappearance">테마 보기</string>
+    <string name="showsagalleryofthewallpapersthatcanbeselected">선택할 수 있는 테마 갤러리를 보여줍니다</string>
+    <string name="selectwallpapertheme">테마 선택</string>
+    <string name="pickamethodforscreensliding">화면 슬라이드 방법 선택</string>
+    <string name="screenslidingtype">스크롤 방법 선택</string>
+    <string name="selecttheamountofzoomused">사용할 줌 크기 선택</string>
+    <string name="selectzoomamount">줌 크기 선택</string>
+    <string name="customthemecolor1">사용자 정의 테마 색상 1</string>
+    <string name="customthemecolor2">사용자 정의 테마 색상 2</string>
+    <string name="customthemecolor3">사용자 정의 테마 색상 3</string>
+    <string name="useyourowncolorsforthethemeinsteadofthepredefinedones">미리 정의된 색상 대신 당신만의 색상을 테마에 사용하세요</string>
+    <string name="usecustomtheme">사용자 정의 테마 적용하기</string>
+    <string name="usesmorecolorsforthetheme">다양한 색상을 테마에 사용</string>
+    <string name="usesecondlevelcolors">2단계 색상 사용</string>
+    <string name="usesevenmorecolorsforthetheme">좀 더 다양한 색상을 테마에 사용</string>
+    <string name="usethirdlevelcolors">3단계 색상 사용</string>
+    <string name="themesettings">테마 설정</string>
+    <string name="selectatargetframerate">목표 프레임 속도 선택(배경화면 때문에 장비의 속도가 느려지는 경우, 낮은 속도를 사용하십시오)</string>
+    <string name="selectframerate">프레임 속도 선택</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_color_picker">색상 선택 도구</string>
+    <string name="press_color_to_apply">적용할 색상 누르기</string>    
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preferencesscreenkey"
+    android:persistent="true"
+    android:title="Free Version" >
+
+    <PreferenceCategory android:title="This Information Is Not Shown In Full Version" android:key="buycategory">
+        <Preference android:title="Buy A Neon Path Full Version"
+                android:key="buybutton"
+                android:summary="Press here to go to the google plus page for this wallpaper"/>
+        <Preference android:title="Limitations In The Free Version"
+                android:key="buttonnotused"
+                android:summary="The Greyed Out Settings Only Work In The Full Version"/>
+        </PreferenceCategory>
+</PreferenceScreen>
